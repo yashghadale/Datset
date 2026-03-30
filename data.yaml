@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Bean', 'Soybean', 'Weed']
+
+roboflow:
+  workspace: wwwdataset-jzoak
+  project: weed11-12dez22-6fev23-20m-2
+  version: 19
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/wwwdataset-jzoak/weed11-12dez22-6fev23-20m-2/dataset/19
